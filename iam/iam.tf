@@ -6,3 +6,9 @@ resource "aws_iam_user" "bob" {
     tag-key = "Team=DevOps"
   }
 }
+resource "aws_iam_group" "sysusers" {
+  name = "sysusers"
+  
+}
+
+
