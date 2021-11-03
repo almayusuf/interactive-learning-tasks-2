@@ -2,7 +2,7 @@ resource "aws_route53_zone" "main" {
   name = "kayahuseyin.net"
 }
 resource "aws_route53_zone" "dev" {
-  name = "blog.kayahuseu=yin.net"
+  name = "blog.kayahuseyin.net"
 }
 resource "aws_route53_record" "dev-ns" {
   zone_id = "Z05859503VOVDG70P4C98"
