@@ -10,7 +10,7 @@ output "key_name" {
 }
 
 output "key_id" {
-    description = "key-id"
-    value       = "aws_key_pair.ilearning-wordpress.public_key"
+    description = "keypair-id"
+    value       = "aws_key_pair.ilearning-wordpress.key_pair_id"
 }
 
