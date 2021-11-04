@@ -1,6 +1,6 @@
 output "region" {
     description = "region"
-    value       = "aws.region"
+    value       =  "data.aws_region.current"
 }
 
 
