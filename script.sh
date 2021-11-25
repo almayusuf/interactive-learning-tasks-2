@@ -43,3 +43,4 @@ do
     echo $i
     rm $i $i.backup
 done
+   
