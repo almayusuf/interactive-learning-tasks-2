@@ -1,5 +1,7 @@
 resource "aws_security_group" "sec_group_for_jenkins" {
-  name = var.sec_group_name
+  name        = "allow_tls"
+  description = "Allow TLS inbound traffic"
+  vpc_id      = aws_vpc.main.id
   ingress {
     from_port   = 22
     to_port     = 22

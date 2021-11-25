@@ -1,3 +1,3 @@
-data "aws_availability_zone" "example" {
-  name = "us-east-1a"
-}
+# data "aws_availability_zones" "example" {
+#   all_availability_zones = true
+# }

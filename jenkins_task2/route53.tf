@@ -1,5 +1,5 @@
 resource "aws_route53_record" "jenkins" {
-  zone_id = "Z05859503VOVDG70P4C98"
+  zone_id = "Z09485621JN7TS90NI9SM"
   name    = "jenkins.kayahuseyin64.net"
   type    = "A"
   ttl     = "30"
