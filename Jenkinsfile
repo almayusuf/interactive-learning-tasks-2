@@ -11,7 +11,7 @@ echo "Hello Blue Ocean" > 4498.txt'''
 
     stage('Success') {
       steps {
-        sh 'Terraform successfully installed. '
+        sh 'echo "Terraform successfully installed." '
       }
     }
 
